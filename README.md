@@ -1,4 +1,4 @@
-# *Analisis de requisimos y objetivos del proyecto:* #
+# *Analisis de requisitos y objetivos del proyecto:* #
 
 ## Requisitos funcionales ##
 

@@ -1,15 +1,15 @@
-## *Analisis de requisimos y objetivos del proyecto:* ##
+# *Analisis de requisimos y objetivos del proyecto:* #
 
-# Requisitos funcionales #
-
-
+## Requisitos funcionales ##
 
 
 
 
 
 
-# Requisitos no funcionales: # 
 
 
-# Tecnologias utilizadas: # 
+## Requisitos no funcionales: ##
+
+
+## Tecnologias utilizadas: ## 

@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -16,28 +21,38 @@ header {
     justify-content: space-between;
 }
 
-header nav img{
-    width: 4%;
-
+nav li{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+nav ul{
+    height: 130px;
+    width: 130px;
+    display: flex;
+}
+nav img{
+    width: 130%;
 }
 
+.icon{
+    font-size: 4.8rem;
+}
 .logo {
-    width: 130px;
-    height: 130px;
-    margin-right: 20px;
+    width: 8%;
+    margin-right: 10%;
 }
 
 .search {
     width: 25%;
-    padding: 8px;
+    padding: 0.5%;
     font-size: 16px;
+    border-radius: 10px;
 }
 
-.icon {
-    margin-left: 10px;
-    text-decoration: none;
-    font-size: 24px;
-}
 
 .banner img {
     width: 10%;
@@ -47,7 +62,7 @@ header nav img{
 
 .brands {
     display: flex;
-    justify-content: space-between;
+
     gap: 10px;
     margin: 20px 0;
 }
@@ -108,7 +123,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 50px;
+    padding: 20px;
     background-color: #333;
     color: #fff;
 }

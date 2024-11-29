@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    list-style: none;
 }
 body {
     font-family: Arial, sans-serif;
@@ -67,16 +68,28 @@ nav img{
     margin: 20px 0;
 }
 
-.brands button {
+.brands ul {
     padding: 10px 20px;
     border: none;
     background-color: #e0e0e0;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
 }
 
 .brands .active {
     background-color: #007bff;
     color: #fff;
+}
+
+.brands img {
+    width:10vw;
 }
 
 .products {

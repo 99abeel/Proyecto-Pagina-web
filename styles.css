@@ -18,7 +18,7 @@ header {
     align-items: center;
     width: 100%;
     padding: 10px;
-    background-color: #dddae8;
+    background-color: #ffc400;
     justify-content: space-between;
 }
 
@@ -63,17 +63,19 @@ nav img{
 
 .brands {
     display: flex;
-
+    justify-content: center;
     gap: 10px;
     margin: 20px 0;
 }
 
 .brands ul {
-    padding: 10px 20px;
-    border: none;
-    background-color: #e0e0e0;
-    cursor: pointer;
     display: flex;
+    justify-content: space-around;
+    margin: 3vw 3vw 1vw;
+    padding: 2vw;
+    border: 2px solid #494244;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 60px;
     align-items: center;
 
     a{
@@ -85,19 +87,19 @@ nav img{
 
 .brands .active {
     background-color: #007bff;
-    color: #fff;
+    color: #ffffff;
 }
 
 .brands img {
-    width:10vw;
+    width:9vw;
 }
 
 .products {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    width: 50%;
-    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
     margin-bottom: 20px;
 }
 
@@ -105,30 +107,34 @@ nav img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
+    padding: 2vw;
+    height: 20vh;
+    margin-bottom: 5vh;
+    width: 30%;
     border: 1px solid #ddd;
     border-radius: 5px;
     background-color: #fff;
+    justify-content: center;
 }
 
 .product img {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
+    width: 15vh;
     margin-bottom: 10px;
+    object-fit: contain;
+    object-position: center;
 }
 
 .product button {
     margin: 5px;
     padding: 8px 12px;
     border: none;
-    background-color: #007bff;
+    background-color: #000000;
     color: white;
     cursor: pointer;
 }
 
 .product button:nth-child(2) {
-    background-color: #ff4081;
+    background-color: #494244;
 }
 
 footer {
@@ -137,7 +143,7 @@ footer {
     align-items: center;
     width: 100%;
     padding: 20px;
-    background-color: #333;
+    background-color: #ffc400;
     color: #fff;
 }
 
@@ -151,5 +157,6 @@ footer address a {
 }
 
 footer img {
-
+    width: 12%;
+    margin-right: 10%;
 }

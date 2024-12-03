@@ -108,7 +108,7 @@ nav img{
     flex-direction: column;
     align-items: center;
     padding: 2vw;
-    height: 20vh;
+    height: 40vh;
     margin-bottom: 5vh;
     width: 30%;
     border: 1px solid #ddd;
@@ -117,12 +117,21 @@ nav img{
     justify-content: center;
 }
 
+.precio {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 2vw;
+    justify-self: center;
+}
 .product img {
-    width: 15vh;
+    width: 300%;
+    max-height: 80%;
     margin-bottom: 10px;
     object-fit: contain;
     object-position: center;
 }
+
+
 
 .product button {
     margin: 5px;
